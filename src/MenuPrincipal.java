@@ -189,7 +189,10 @@ public class MenuPrincipal {
                 }
                 case 8 -> {
                     int tabla;
+                    System.out.println("Ingrese un numero: ");
+                    tabla= sn.nextInt();
                     break;
+                    
                 }
                 
                 
