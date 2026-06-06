@@ -171,6 +171,12 @@ public class MenuPrincipal {
                 
                 if (num > 0) {
                 positivos++;
+                } else if (num < 0) {
+                negativos++; 
+                  } else {
+                ceros++;
+            }
+        
             
                     break;
                 case 11:
