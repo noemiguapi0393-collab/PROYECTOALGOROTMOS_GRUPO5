@@ -143,9 +143,13 @@ public class MenuPrincipal {
                 
                 
                 case 9:
-                 
-                 System.out.print("Ingrese un número: ");
-               int num = sc.nextInt();
+                    System.out.println("================================");
+                    System.out.println("FACTORIAL DE UN NUMERO INGRESADO");
+                    System.out.println("=================================");
+                    System.out.print("Ingrese un número: ");
+                    int num = sc.nextInt();
+                    
+                    long factorial = 1;
                     break;
                 case 10:
                     // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 10 [cite: 25]
