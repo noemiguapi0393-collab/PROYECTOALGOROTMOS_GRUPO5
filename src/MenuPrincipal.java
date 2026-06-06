@@ -134,7 +134,11 @@ public class MenuPrincipal {
                     }
                 }
 
-                case 5 -> {
+                case 5 -> { 
+                    System.out.println("---CONTEO DE PARES E IMPARES ");
+                    int numero5;
+                    int pares = 0;
+                    break;
                 }
                 case 6 -> {
                 }
