@@ -26,7 +26,7 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1:// Ejercicio 1 
+                case 1:// Ejercicio 1 [cite: 11, 12]
                     int intentos = 0;
                     String clave;
                     do {
