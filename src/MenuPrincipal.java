@@ -104,7 +104,6 @@ public class MenuPrincipal {
                         System.out.print("Clave de cajero: ");
                         String c = sn.next();
 
-                        // CAMBIO 4: Bucle para validar que sean 4 dígitos
                         while (c.length() != 4) {
                             System.out.println("Error: La clave debe tener 4 dígitos.");
                             System.out.print("Clave de cajero: ");
@@ -115,7 +114,8 @@ public class MenuPrincipal {
                             acceso = true;
                         } else { 
                             iCajero++; 
-                            System.out.println("Incorrecta."); 
+                            // CAMBIO 5: Mensaje de error mejorado
+                            System.out.println("La clave introducida es incorrecta.\n"); 
                         }
                     }
                     if (acceso) {
