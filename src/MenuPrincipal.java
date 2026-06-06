@@ -176,6 +176,8 @@ public class MenuPrincipal {
                     
                 }
                 case 7 -> {
+                    int numControl;
+                    break;
                 }
                 case 8 -> {
                 }
