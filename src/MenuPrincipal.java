@@ -26,14 +26,17 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1: // Ejercicio 1 [cite: 11, 12]
+                case 1: // Ejercicio 1
+                    System.out.println("========================================");
+                    System.out.println("    MODULO DE AUTENTICACION DE USUARIO  ");
+                    System.out.println("========================================");
                     int intentos = 0;
                     String clave;
                     do {
                         System.out.print("Ingrese la contrasena: ");
                         clave = sn.next();
                         intentos++;
-                    } while (!clave.equals("utc2026")); // Contraseña fija de ejemplo
+                    } while (!clave.equals("utc2026")); 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
                     break;
 
@@ -113,3 +116,6 @@ public class MenuPrincipal {
         } while (opcion != 15);
     }
 }
+
+
+
