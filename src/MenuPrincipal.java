@@ -142,16 +142,17 @@ public class MenuPrincipal {
                     do{
                         System.out.println("Ingrese un numero: ");
                         numero5 = sn.nextInt();
-                         }while(numero5 !=0);
                         if(numero5 !=0){
                             if(numero5 % 2 == 0){ 
                                 pares++;
                             }else{
                                 impares++;
-                            }}
-                        System.out.println("\nRESULTADOS");
-                        System.out.println("Cantidad de pares: "+pares );
-                        System.out.println("Cantidad de impares: "+impares);
+                            }
+                        }
+                        }while(numero5 !=0);
+                    System.out.println("\nRESULTADOS");
+                    System.out.println("Cantidad de pares: "+pares );
+                    System.out.println("Cantidad de impares: "+impares);
                         
                         
                     break;
