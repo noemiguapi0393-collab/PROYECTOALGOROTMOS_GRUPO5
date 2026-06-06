@@ -192,7 +192,7 @@ public class MenuPrincipal {
                     System.out.println("Ingrese un numero: ");
                     tabla= sn.nextInt();
                     if(tabla>0 ){
-                    }
+                        System.out.println("Debe ingresar un numero positivo");}
                     break;
                     
                 }
