@@ -63,15 +63,18 @@ public class MenuPrincipal {
                         cant++;
                         suma += num;
                     }
-                    System.out.println("\n--- RESULTADOS ---");
-                    System.out.println("Cantidad de numeros: " + cant);
-                    System.out.println("Suma total: " + suma);
+                    System.out.println("\n========================================");
+                    System.out.println("          REPORTE GENERAL (EJ 2)        ");
+                    System.out.println("========================================");
+                    System.out.println("  - Total Datos Registrados : " + cant);
+                    System.out.println("  - Sumatoria Calculada     : " + suma);
                     if (cant > 0) {
                         double promedio = (double) suma / cant;
-                        System.out.println("Promedio de valores: " + promedio);
+                        System.out.println("  - Promedio de Muestreo    : " + promedio);
                     } else {
-                        System.out.println("Promedio: No se puede calcular (0 elementos registrados).");
+                        System.out.println("  - Promedio de Muestreo    : N/A (Sin datos)");
                     }
+                    System.out.println("========================================");
                     break;
                     
                 case 3: // Ejercicio 3 [cite: 15, 16]
