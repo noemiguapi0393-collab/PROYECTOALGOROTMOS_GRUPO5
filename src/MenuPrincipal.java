@@ -51,7 +51,8 @@ public class MenuPrincipal {
                     System.out.println("\n========================================");
                     System.out.println("   PROCESADOR DE ENTEROS POSITIVOS      ");
                     System.out.println("========================================");
-                    int num, cant = 0, suma = 0;
+                    int num, cant = 0;
+                    long suma = 0; // Proteccion contra desbordamiento numerico (Overflow)
                     while (true) {
                         System.out.print("Ingrese un numero entero positivo: ");
                         num = sn.nextInt();
