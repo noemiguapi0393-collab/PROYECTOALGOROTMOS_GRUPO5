@@ -177,7 +177,10 @@ public class MenuPrincipal {
                 }
                 case 7 -> {
                     int numControl;
+                    System.out.println("Ingrese un numero: ");
+                    numControl =sn.nextInt();
                     break;
+                    
                 }
                 case 8 -> {
                 }
