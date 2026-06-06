@@ -201,6 +201,9 @@ public class MenuPrincipal {
                     sumaCalificaciones += notaEstudiante;
                     }
                     
+                    double promedio = sumaCalificaciones / 3;
+                    
+                    
                     break;
                 case 12:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 12 [cite: 27]
