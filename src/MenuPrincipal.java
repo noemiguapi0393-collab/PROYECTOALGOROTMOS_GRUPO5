@@ -193,13 +193,13 @@ public class MenuPrincipal {
                     System.out.println("Ingrese un numero: ");
                     tabla= sn.nextInt();
                     if(tabla>0 ){
+                        System.out.println("TABLA DEL"+tabla);
                         for(int i=1;i<=20; i++){
                             resultado = tabla*i;
                             System.out.println( tabla+" x "+i+"="+resultado );
-                        }
-                        
-                        
-                        System.out.println("Debe ingresar un numero positivo");}
+                    }} else{ System.out.println("Debe ingresar un numero positivo");
+                                
+                                }
                     break;
                     
                 }
