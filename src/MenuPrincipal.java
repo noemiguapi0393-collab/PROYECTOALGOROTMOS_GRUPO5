@@ -165,6 +165,8 @@ public class MenuPrincipal {
                     int negativos = 0;
                     int ceros = 0;
                     
+                    for (int i = 1; i <= 15; i++)
+                        
                     break;
                 case 11:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
