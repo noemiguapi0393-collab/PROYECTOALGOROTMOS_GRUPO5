@@ -48,12 +48,15 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     break;
                 case 2: // Ejercicio 2
+                    System.out.println("\n========================================");
+                    System.out.println("   PROCESADOR DE ENTEROS POSITIVOS      ");
+                    System.out.println("========================================");
                     int num, cant = 0, suma = 0;
                     while (true) {
                         System.out.print("Ingrese un numero entero positivo: ");
                         num = sn.nextInt();
                         if (num < 0) {
-                            break; // Finaliza el bucle al ingresar un negativo
+                            break; 
                         }
                         cant++;
                         suma += num;
@@ -68,7 +71,7 @@ public class MenuPrincipal {
                         System.out.println("Promedio: No se puede calcular (0 elementos registrados).");
                     }
                     break;
-
+                    
                 case 3: // Ejercicio 3 [cite: 15, 16]
                     double nota;
                     do {
