@@ -138,6 +138,11 @@ public class MenuPrincipal {
                     System.out.println("---CONTEO DE PARES E IMPARES ");
                     int numero5;
                     int pares = 0;
+                    int impares= 0;
+                    do{
+                        System.out.println("Ingrese un numero: ");
+                        numero5 = sn.nextInt();
+                         }while(numero5 !=0);
                     break;
                 }
                 case 6 -> {
