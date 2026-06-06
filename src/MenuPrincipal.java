@@ -188,6 +188,8 @@ public class MenuPrincipal {
                     
                 }
                 case 8 -> {
+                    int tabla;
+                    break;
                 }
                 
                 
