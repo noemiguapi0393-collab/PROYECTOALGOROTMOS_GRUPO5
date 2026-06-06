@@ -180,7 +180,10 @@ public class MenuPrincipal {
                     System.out.println("Ingrese un numero: ");
                     numControl =sn.nextInt();
                     while(numControl >=0){
+                        System.out.println("Ingrese un numero: ");
+                        numControl =sn.nextInt();
                     }
+                    System.out.println("Se ingreso un numero negativo.");
                     break;
                     
                 }
