@@ -26,7 +26,8 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1:// Ejercicio 1 [cite: 11, 12]
+                case 1 -> {
+                    // Ejercicio 1 [cite: 11, 12]
                     System.out.println("\n::: INICIANDO CONTROL DE ACCESOS :::");
                     String llaveMaestra = "utc2026"; 
                     int intentos = 0;
@@ -46,8 +47,9 @@ public class MenuPrincipal {
                     System.out.println("  AUDITORIA: LOGIN PROCESADO CON EXITO  ");
                     System.out.println("  Intentos registrados en consola: " + intentos);
                     System.out.println("========================================");
-                    break;
-                case 2: // Ejercicio 2
+                }
+                case 2 -> {
+                    // Ejercicio 2
                     System.out.println("\n========================================");
                     System.out.println("   PROCESADOR DE ENTEROS POSITIVOS      ");
                     System.out.println("========================================");
@@ -75,9 +77,10 @@ public class MenuPrincipal {
                         System.out.println("  - Promedio de Muestreo    : N/A (Sin datos)");
                     }
                     System.out.println("========================================");
-                    break;
+                }
                     
-                case 3:// Ejercicio 3
+                case 3 -> {
+                    // Ejercicio 3
                     System.out.println("\n**************");
                     System.out.println("* VALIDADOR DE CALIFICACIONES    *");
                     System.out.println("************");
@@ -92,9 +95,10 @@ public class MenuPrincipal {
                     System.out.println("------------------------------------");
                     System.out.println(" RESULTADO: Nota " + nota + " aceptada.");
                     System.out.println("------------------------------------");
-                    break;
+                }
 
-                case 4: // Ejercicio 4
+                case 4 -> {
+                    // Ejercicio 4
                     System.out.println("\n--- CAJERO AUTOMÁTICO ---");
 
                     int iCajero = 0;
@@ -112,8 +116,8 @@ public class MenuPrincipal {
 
                         if (c.equals("1234")) {
                             acceso = true;
-                        } else { 
-                            iCajero++; 
+                        } else {
+                            iCajero++;
                             System.out.println("La clave introducida es incorrecta.\n"); 
                         }
                     }
@@ -126,23 +130,19 @@ public class MenuPrincipal {
                     } else {
                         System.out.println("Acceso bloqueado.");
                     }
-                    break;
+                }
 
-                case 5:
-                    // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 5 [cite: 19]
-                    break;
-                case 6:
-                    // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 6 [cite: 20, 21]
-                    break;
-                case 7:
-                    // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 7 [cite: 22]
-                    break;
-                case 8:
-                    // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 8 [cite: 23]
-                    break;
+                case 5 -> {
+                }
+                case 6 -> {
+                }
+                case 7 -> {
+                }
+                case 8 -> {
+                }
                 
                 
-                case 9:
+                case 9 -> {
                     System.out.println("================================");
                     System.out.println("FACTORIAL DE UN NUMERO INGRESADO");
                     System.out.println("=================================");
@@ -151,12 +151,12 @@ public class MenuPrincipal {
                     
                     long factorial = 1;
                     
-                     for (int i = 1; i <= numFactorial; i++) {
-                     factorial *= i;
-                }
+                    for (int i = 1; i <= numFactorial; i++) {
+                        factorial *= i;
+                    }
                     System.out.println("El factorial de " + numFactorial + " es: " + factorial);
-                    break;
-                case 10:
+                }
+                case 10 -> {
                     System.out.println("===================================================");
                     System.out.println("BIENVENIDOS A Contador de Positivos/Negativos/Ceros");
                     System.out.println("===================================================");
@@ -167,25 +167,24 @@ public class MenuPrincipal {
                     int ceros = 0;
                     
                     for (int i = 1; i <= 15; i++){
-                    System.out.print("Ingrese el número " + i + ": ");
-                int numIngresado = sn.nextInt();
+                        System.out.print("Ingrese el número " + i + ": ");
+                        int numIngresado = sn.nextInt();
+                        
+                        if (numIngresado > 0) {
+                            positivos++;
+                        } else if (numIngresado < 0) {
+                            negativos++;
+                        } else {
+                            ceros++;
+                        }
+                    }
+                    System.out.println("REPORTE DE CLASIFICACION");
+                    System.out.println("Cantidad de valores Positivos: " + positivos);
+                    System.out.println("Cantidad de valores Negativos: " + negativos);
+                    System.out.println("Cantidad de valores Ceros: " + ceros);
+                }
                 
-                if (numIngresado > 0) {
-                positivos++;
-                } else if (numIngresado < 0) {
-                negativos++; 
-                  } else {
-                ceros++;
-            }
-          }
-                  System.out.println("REPORTE DE CLASIFICACION");
-                  System.out.println("Cantidad de valores Positivos: " + positivos);
-                  System.out.println("Cantidad de valores Negativos: " + negativos);
-                  System.out.println("Cantidad de valores Ceros: " + ceros);
-                 
-                  break;
-                
-                case 11:
+                case 11 -> {
                     System.out.println("========================================");
                     System.out.println("BIENVENIDOS A Promedio de Calificaciones");
                     System.out.println("========================================");
@@ -194,55 +193,56 @@ public class MenuPrincipal {
                     double sumaCalificaciones = 0;
                     
                     for (int i = 1; i <= 20; i++) {
-                    
-                    System.out.print("Ingrese la calificación del estudiante " + i + ": ");
-                    double notaEstudiante = sn.nextDouble();
-                    
-                    sumaCalificaciones += notaEstudiante;
+                        
+                        System.out.print("Ingrese la calificación del estudiante " + i + ": ");
+                        double notaEstudiante = sn.nextDouble();
+                        
+                        sumaCalificaciones += notaEstudiante;
                     }
                     
                     double promedio = sumaCalificaciones / 20;
                     
                     System.out.println("El promedio general de las notas es : " + promedio);
-    
-                    break;
+                }
                 
-                case 12:
-                   System.out.println("===================================="); 
-                   System.out.println("BIENVENIDOS a la Secuencia Fibonacci");
-                   System.out.println("====================================");
-                   System.out.print("Ingrese la cantidad de términos: ");
+                case 12 -> {
+                    System.out.println("====================================");
+                    System.out.println("BIENVENIDOS a la Secuencia Fibonacci");
+                    System.out.println("====================================");
+                    System.out.print("Ingrese la cantidad de términos: ");
+                   
+                    int n = sn.nextInt();
                     
-                   int n = sn.nextInt();
-                   
-                   int a = 0;
-                   int b = 1;
-
-                   System.out.println("Serie de Fibonacci:");
-                   
-                   for (int i = 1; i <= n; i++) {
-                   
-                   System.out.print(a + " ");
-                   
+                    int a = 0;
+                    
+                    int b = 1;
+                    
+                    System.out.println("Serie de Fibonacci:");
+                    
+                    for (int i = 1; i <= n; i++) {
+                    
+                    System.out.print(a + " ");
+                        
                     int siguiente = a + b;
                     a = b;
                     b = siguiente;
+                    }
+                    //ejercicio terminado
                 }
-                 //ejercicio terminado 
-                   break;
-                case 13:
-                    // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
-                    break;
-                case 14:
-                    // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 14 [cite: 29]
-                    break;
-                case 15:
-                    System.out.println("Saliendo del programa...");
-                    break;
-                default:
-                    System.out.println("Opcion no valida.");
+                case 13 -> {
+                }
+                case 14 -> {
+                }
+                case 15 -> System.out.println("Saliendo del programa...");
+                default -> System.out.println("Opcion no valida.");
             }
-        } while (opcion != 15);
+            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 5 [cite: 19]
+            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 6 [cite: 20, 21]
+            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 7 [cite: 22]
+            // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 8 [cite: 23]
+            // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
+            // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 14 [cite: 29]
+                    } while (opcion != 15);
     }
 }
 
