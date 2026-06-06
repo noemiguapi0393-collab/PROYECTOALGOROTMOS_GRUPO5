@@ -34,12 +34,11 @@ public class MenuPrincipal {
                     String clave;
                     do {
                         System.out.print("Ingrese la contrasena: ");
-                        clave = sn.next();
+                        clave = sn.next().toLowerCase(); // Acepta UTC2026 o utc2026
                         intentos++;
                     } while (!clave.equals("utc2026")); 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
                     break;
-
                 case 2: // Ejercicio 2 [cite: 13, 14]
                     int num, cant = 0, suma = 0;
                     while (true) {
