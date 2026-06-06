@@ -192,6 +192,9 @@ public class MenuPrincipal {
                     System.out.print("Ingrese la cantidad de términos: ");
                 
                     int n = sn.nextInt();
+                    
+                    int a = 0;
+                    int b = 1;
                   
                     
                     break;
