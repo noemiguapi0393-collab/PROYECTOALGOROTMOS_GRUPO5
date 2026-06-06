@@ -114,10 +114,13 @@ public class MenuPrincipal {
                             acceso = true;
                         } else { 
                             iCajero++; 
-                            // CAMBIO 5: Mensaje de error mejorado
                             System.out.println("La clave introducida es incorrecta.\n"); 
                         }
                     }
+                    
+                    // CAMBIO 6: Separador visual
+                    System.out.println("---------------------------------");
+
                     if (acceso) {
                         System.out.println("Bienvenido!");
                     } else {
