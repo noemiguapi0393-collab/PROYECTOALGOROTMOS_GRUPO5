@@ -157,9 +157,9 @@ public class MenuPrincipal {
                     System.out.println("El factorial de " + numFactorial + " es: " + factorial);
                     break;
                 case 10:
-                    System.out.println("================================================");
+                    System.out.println("===================================================");
                     System.out.println("BIENVENIDOS A Contador de Positivos/Negativos/Ceros");
-                    System.out.println("================================================");
+                    System.out.println("===================================================");
                     System.out.println("se solicitara un muestreo de 15 numeros enteros.\n");
                     
                     int positivos = 0;
@@ -186,7 +186,14 @@ public class MenuPrincipal {
                   break;
                 
                 case 11:
-                    // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
+                    System.out.println("========================================");
+                    System.out.println("BIENVENIDOS A Promedio de Calificaciones");
+                    System.out.println("========================================");
+                    System.out.print("Ingrese la cantidad de términos: ");
+                
+                    int n = sn.nextInt();
+                  
+                    
                     break;
                 case 12:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 12 [cite: 27]
