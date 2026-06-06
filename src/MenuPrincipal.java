@@ -29,18 +29,18 @@ public class MenuPrincipal {
                 case 1:// Ejercicio 1 [cite: 11, 12]
                     String llaveMaestra = "utc2026"; 
                     int intentos = 0;
-                    String clave;
-                    do {
+                    while (true) { // Reestructuracion del ciclo a bucle infinito
                         System.out.print("Ingrese el codigo de seguridad requerido: ");
-                        clave = sn.next();
+                        String clave = sn.next();
                         intentos++;
-                        if (!clave.equalsIgnoreCase(llaveMaestra)) {
-                            System.out.println("[ALERTA] Credenciales incorrectas. Pruebe otra vez.");
-                            if (intentos >= 3) {
-                                System.out.println(">> [SISTEMA]: Se han detectado multiples fallos continuos.");
-                            }
+                        if (clave.equalsIgnoreCase(llaveMaestra)) {
+                            break; // Rompe el bucle solo si la contraseña es correcta
                         }
-                    } while (!clave.equalsIgnoreCase(llaveMaestra)); 
+                        System.out.println("[ALERTA] Credenciales incorrectas. Pruebe otra vez.");
+                        if (intentos >= 3) {
+                            System.out.println(">> [SISTEMA]: Se han detectado multiples fallos continuos.");
+                        }
+                    } 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
                     break;
                 case 2: // Ejercicio 2 [cite: 13, 14]
