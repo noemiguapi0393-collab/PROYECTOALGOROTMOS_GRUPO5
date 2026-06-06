@@ -208,7 +208,11 @@ public class MenuPrincipal {
                     break;
                 
                 case 12:
-                    // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 12 [cite: 27]
+                   System.out.println("===================================="); 
+                   System.out.println("BIENVENIDOS a la Secuencia Fibonacci");
+                   System.out.println("====================================");
+                   System.out.print("Ingrese la cantidad de términos: ");
+                    int n = sn.nextInt();
                     break;
                 case 13:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
