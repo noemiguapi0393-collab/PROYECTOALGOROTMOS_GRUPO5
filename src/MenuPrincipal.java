@@ -18,7 +18,7 @@ public class MenuPrincipal {
             System.out.println("9. Factorial de un Numero (Ej 9)");
             System.out.println("10. Contador Positivos/Negativos/Ceros (Ej 10)");
             System.out.println("11. Promedio de Calificaciones (Ej 11)");
-            System.out.println("12. Secuencia Fibonacci (Ej 12)");
+            System.out.println("12. Secuencia Fibonacci ");
             System.out.println("13. Numero Mayor y Menor (Ej 13)");
             System.out.println("14. Suma Pares 1-200 (Ej 14)");
             System.out.println("15. Salir");
