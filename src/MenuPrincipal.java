@@ -146,7 +146,10 @@ public class MenuPrincipal {
                         if(numero5 !=0){
                             if(numero5 % 2 == 0){ 
                                 pares++;
+                            }else{
+                                impares++;
                             }}
+                        
                         
                     break;
                     
