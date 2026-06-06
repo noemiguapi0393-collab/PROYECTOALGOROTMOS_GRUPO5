@@ -95,7 +95,6 @@ public class MenuPrincipal {
                     break;
 
                 case 4: // Ejercicio 4
-                    // CAMBIO 1: Encabezado de inicio
                     System.out.println("\n--- CAJERO AUTOMÁTICO ---");
 
                     int iCajero = 0;
@@ -103,11 +102,19 @@ public class MenuPrincipal {
                     while (iCajero < 3 && !acceso) {
                         System.out.print("Clave de cajero: ");
                         String c = sn.next();
-                        if (c.equals("1234")) acceso = true;
-                        else { iCajero++; System.out.println("Incorrecta."); }
+                        // CAMBIO 2: Estructura limpia con llaves
+                        if (c.equals("1234")) {
+                            acceso = true;
+                        } else { 
+                            iCajero++; 
+                            System.out.println("Incorrecta."); 
+                        }
                     }
-                    if (acceso) System.out.println("Bienvenido!");
-                    else System.out.println("Acceso bloqueado.");
+                    if (acceso) {
+                        System.out.println("Bienvenido!");
+                    } else {
+                        System.out.println("Acceso bloqueado.");
+                    }
                     break;
 
                 case 5:
