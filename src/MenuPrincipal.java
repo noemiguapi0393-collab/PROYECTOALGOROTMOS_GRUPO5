@@ -169,6 +169,8 @@ public class MenuPrincipal {
                             cantidad++;
                          }
                     }while(venta !=0);
+                    System.out.println("Total vendido: $"+total);
+                    System.out.println("Cantidad de ventas: "+cantidad);
                     
                     break; 
                     
