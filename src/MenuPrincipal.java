@@ -26,8 +26,8 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1:// Ejercicio 1 
-                    String llaveMaestra = "utc2026"; // Almacenamiento seguro
+                case 1:// Ejercicio 1 [cite: 11, 12]
+                    String llaveMaestra = "utc2026"; 
                     int intentos = 0;
                     String clave;
                     do {
@@ -36,6 +36,9 @@ public class MenuPrincipal {
                         intentos++;
                         if (!clave.equalsIgnoreCase(llaveMaestra)) {
                             System.out.println("[ALERTA] Credenciales incorrectas. Pruebe otra vez.");
+                            if (intentos >= 3) {
+                                System.out.println(">> [SISTEMA]: Se han detectado multiples fallos continuos.");
+                            }
                         }
                     } while (!clave.equalsIgnoreCase(llaveMaestra)); 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
