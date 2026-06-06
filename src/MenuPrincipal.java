@@ -179,13 +179,18 @@ public class MenuPrincipal {
                 }
                 case 7 -> {
                     int numControl;
+                    int cantidad=0;
+                    System.out.println("\n=== INGRESO DE NUMEROS ===");
+                    System.out.println("El programa finalizara cuando ingrese un numero negativo.");
                     System.out.println("Ingrese un numero: ");
                     numControl =sn.nextInt();
                     while(numControl >=0){
+                        cantidad++;
                         System.out.println("Ingrese un numero: ");
                         numControl =sn.nextInt();
                     }
-                    System.out.println("Se ingreso un numero negativo.");
+                    System.out.println("\nSe ingreso un numero negativo.");
+                    System.out.println("Cantidad de numeros no negativos ingresados: " + cantidad);
                     break;
                     
                 }
@@ -301,10 +306,7 @@ public class MenuPrincipal {
                 case 15 -> System.out.println("Saliendo del programa...");
                 default -> System.out.println("Opcion no valida.");
             }
-            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 5 [cite: 19]
-            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 6 [cite: 20, 21]
-            // COMPANERO 2: Aqui borras esto y pones tu Ejercicio 7 [cite: 22]
-            // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 8 [cite: 23]
+            
             // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
             // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 14 [cite: 29]
                     } while (opcion != 15);
