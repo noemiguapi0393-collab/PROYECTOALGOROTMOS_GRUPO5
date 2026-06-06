@@ -162,6 +162,9 @@ public class MenuPrincipal {
                     System.out.println("================================================");
                     
                     int positivos = 0;
+                    int negativos = 0;
+                    int ceros = 0;
+                    
                     break;
                 case 11:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
