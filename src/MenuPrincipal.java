@@ -27,6 +27,7 @@ public class MenuPrincipal {
 
             switch (opcion) {
                 case 1:// Ejercicio 1 [cite: 11, 12]
+                    System.out.println("\n::: INICIANDO CONTROL DE ACCESOS :::");
                     String llaveMaestra = "utc2026"; 
                     int intentos = 0;
                     while (true) { 
