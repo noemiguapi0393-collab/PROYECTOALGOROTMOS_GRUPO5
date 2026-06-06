@@ -217,7 +217,12 @@ public class MenuPrincipal {
                    
                    int a = 0;
                    int b = 1;
-                    break;
+
+                   System.out.println("Serie de Fibonacci:");
+                   
+                   for (int i = 1; i <= n; i++) {
+                   System.out.print(a + " ");
+                   break;
                 case 13:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
                     break;
