@@ -100,9 +100,10 @@ public class MenuPrincipal {
                     int iCajero = 0;
                     boolean acceso = false;
                     while (iCajero < 3 && !acceso) {
+                        // CAMBIO 3: Mostrar intentos restantes
+                        System.out.println("Intentos restantes: " + (3 - iCajero));
                         System.out.print("Clave de cajero: ");
                         String c = sn.next();
-                        // CAMBIO 2: Estructura limpia con llaves
                         if (c.equals("1234")) {
                             acceso = true;
                         } else { 
