@@ -164,7 +164,9 @@ public class MenuPrincipal {
                     int cantidad =0;
                     do { System.out.println("Ingrese una venta: ");
                     venta= sn.nextDouble();
-                        if (venta != 0) {
+                        if (venta < 0) { 
+                            System.out.println("no se permiten ventas negartivas ");}
+                        else if(venta !=0) { 
                             total += venta;
                             cantidad++;
                          }
