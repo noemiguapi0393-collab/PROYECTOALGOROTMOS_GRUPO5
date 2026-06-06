@@ -164,6 +164,9 @@ public class MenuPrincipal {
                     int cantidad =0;
                     do { System.out.println("Ingrese una venta: ");
                     venta= sn.nextDouble();
+                        if (venta != 0) {
+                            total += venta;       
+                         }
                     }while(venta !=0);
                     
                     break; 
