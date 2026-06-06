@@ -179,6 +179,8 @@ public class MenuPrincipal {
                     int numControl;
                     System.out.println("Ingrese un numero: ");
                     numControl =sn.nextInt();
+                    while(numControl >=0){
+                    }
                     break;
                     
                 }
