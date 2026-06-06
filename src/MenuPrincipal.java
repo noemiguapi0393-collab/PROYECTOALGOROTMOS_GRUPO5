@@ -157,7 +157,11 @@ public class MenuPrincipal {
                     System.out.println("El factorial de " + numFactorial + " es: " + factorial);
                     break;
                 case 10:
-                    // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 10 [cite: 25]
+                    System.out.println("================================================");
+                    System.out.println("BIENVENIDOS A Contador Positivos/Negativos/Ceros");
+                    System.out.println("================================================");
+                    
+                    int positivos = 0;
                     break;
                 case 11:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
