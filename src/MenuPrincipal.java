@@ -228,7 +228,7 @@ public class MenuPrincipal {
                     a = b;
                     b = siguiente;
                 }
-    
+                 //ejercicio terminado 
                    break;
                 case 13:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
