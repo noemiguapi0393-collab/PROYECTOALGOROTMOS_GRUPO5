@@ -78,15 +78,19 @@ public class MenuPrincipal {
                     break;
                     
                 case 3:  // Ejercicio 3
+                    System.out.println("\n**************");
+                    System.out.println("* VALIDADOR DE CALIFICACIONES    *");
+                    System.out.println("************");
                     double nota;
                     do {
-                        System.out.print("Ingrese una nota entre 0 y 10: ");
+                        System.out.print("Digite la nota final (0.0 - 10.0): ");
                         nota = sn.nextDouble();
                         if (nota < 0 || nota > 10) {
-                            System.out.println("[ERROR]: La nota esta fuera del rango permitido (0-10).");
+                            System.out.println(">> Error: Entrada invalida.");
                         }
                     } while (nota < 0 || nota > 10);
-                    System.out.println("La nota valida registrada es: " + nota);
+                    System.out.println("\n[SISTEMA]: Registro exitoso.");
+                    System.out.println("Nota almacenada: " + nota);
                     break;
 
                 case 4: // Ejercicio 4 [cite: 17, 18]
