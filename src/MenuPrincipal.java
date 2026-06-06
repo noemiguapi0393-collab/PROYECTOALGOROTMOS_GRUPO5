@@ -147,13 +147,14 @@ public class MenuPrincipal {
                     System.out.println("FACTORIAL DE UN NUMERO INGRESADO");
                     System.out.println("=================================");
                     System.out.print("Ingrese un número: ");
-                    int num = sc.nextInt();
+                    int numFactorial = sn.nextInt();
                     
                     long factorial = 1;
                     
-                for (int i = 1; i <= num; i++) {
-                factorial *= i;
-             }
+                     for (int i = 1; i <= numFactorial; i++) {
+                     factorial *= i;
+                }
+                    System.out.println("El factorial de " + numFactorial + " es: " + factorial);
                     break;
                 case 10:
                     // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 10 [cite: 25]
