@@ -150,6 +150,10 @@ public class MenuPrincipal {
                     int num = sc.nextInt();
                     
                     long factorial = 1;
+                    
+                for (int i = 1; i <= num; i++) {
+                factorial *= i;
+             }
                     break;
                 case 10:
                     // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 10 [cite: 25]
