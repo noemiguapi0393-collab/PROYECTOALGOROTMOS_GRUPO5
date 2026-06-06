@@ -189,11 +189,11 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     System.out.println("BIENVENIDOS A Promedio de Calificaciones");
                     System.out.println("========================================");
-                    System.out.print("se procesara el promedio de 3 estudiantes.\n ");
+                    System.out.print("se procesara el promedio de 20 estudiantes.\n ");
                 
                     double sumaCalificaciones = 0;
                     
-                    for (int i = 1; i <= 3; i++) {
+                    for (int i = 1; i <= 20; i++) {
                     
                     System.out.print("Ingrese la calificación del estudiante " + i + ": ");
                     double notaEstudiante = sn.nextDouble();
@@ -201,10 +201,12 @@ public class MenuPrincipal {
                     sumaCalificaciones += notaEstudiante;
                     }
                     
-                    double promedio = sumaCalificaciones / 3;
+                    double promedio = sumaCalificaciones / 20;
                     
-                    
+                    System.out.println("El promedio general de las notas es : " + promedio);
+    
                     break;
+                
                 case 12:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 12 [cite: 27]
                     break;
