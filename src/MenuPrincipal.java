@@ -94,13 +94,15 @@ public class MenuPrincipal {
                     System.out.println("------------------------------------");
                     break;
 
-                case 4: // Ejercicio 4 [cite: 17, 18]
+                case 4: // Ejercicio 4
+                    // CAMBIO 1: Encabezado de inicio
+                    System.out.println("\n--- CAJERO AUTOMÁTICO ---");
+
                     int iCajero = 0;
                     boolean acceso = false;
                     while (iCajero < 3 && !acceso) {
                         System.out.print("Clave de cajero: ");
                         String c = sn.next();
-                        if (c.equals("1234")); // Clave fija de ejemplo
                         if (c.equals("1234")) acceso = true;
                         else { iCajero++; System.out.println("Incorrecta."); }
                     }
