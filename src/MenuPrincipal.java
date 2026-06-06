@@ -149,6 +149,9 @@ public class MenuPrincipal {
                             }else{
                                 impares++;
                             }}
+                        System.out.println("\nRESULTADOS");
+                        System.out.println("Cantidad de pares: "+pares );
+                        System.out.println("Cantidad de impares: "+impares);
                         
                         
                     break;
