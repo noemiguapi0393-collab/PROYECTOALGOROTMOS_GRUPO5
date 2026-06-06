@@ -140,8 +140,12 @@ public class MenuPrincipal {
                 case 8:
                     // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 8 [cite: 23]
                     break;
+                
+                
                 case 9:
-                    // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 9 [cite: 24]
+                 
+                 System.out.print("Ingrese un número: ");
+               int num = sc.nextInt();
                     break;
                 case 10:
                     // COMPANERO 3: Aqui borras esto y pones tu Ejercicio 10 [cite: 25]
