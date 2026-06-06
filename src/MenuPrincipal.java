@@ -77,13 +77,13 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     break;
                     
-                case 3: // Ejercicio 3 [cite: 15, 16]
+                case 3:  // Ejercicio 3
                     double nota;
                     do {
-                        System.out.print("Ingrese nota (0-10): ");
+                        System.out.print("Ingrese una nota entre 0 y 10: ");
                         nota = sn.nextDouble();
                     } while (nota < 0 || nota > 10);
-                    System.out.println("Nota valida registrada: " + nota);
+                    System.out.println("La nota valida es: " + nota);
                     break;
 
                 case 4: // Ejercicio 4 [cite: 17, 18]
