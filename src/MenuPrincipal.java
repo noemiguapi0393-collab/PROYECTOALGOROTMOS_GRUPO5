@@ -189,11 +189,17 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     System.out.println("BIENVENIDOS A Promedio de Calificaciones");
                     System.out.println("========================================");
-                    System.out.print("Ingrese la cantidad de términos: ");
+                    System.out.print("se procesara el promedio de 3 estudiantes.\n ");
                 
-                    double suma = 0;
+                    double sumaCalificaciones = 0;
                     
-                    for (int i = 1; i <= 20; i++) {
+                    for (int i = 1; i <= 3; i++) {
+                    
+                    System.out.print("Ingrese la calificación del estudiante " + i + ": ");
+                    double notaEstudiante = sn.nextDouble();
+                    
+                    sumaCalificaciones += notaEstudiante;
+                    }
                     
                     break;
                 case 12:
