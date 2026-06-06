@@ -159,6 +159,11 @@ public class MenuPrincipal {
                     
                 }
                 case 6 -> {
+                    double venta;
+                    double total =0;
+                    int cantidad =0;
+                    break; 
+                    
                 }
                 case 7 -> {
                 }
