@@ -158,27 +158,33 @@ public class MenuPrincipal {
                     break;
                 case 10:
                     System.out.println("================================================");
-                    System.out.println("BIENVENIDOS A Contador Positivos/Negativos/Ceros");
+                    System.out.println("BIENVENIDOS A Contador de Positivos/Negativos/Ceros");
                     System.out.println("================================================");
+                    System.out.println("se solicitara un muestreo de 15 numeros enteros.\n");
                     
                     int positivos = 0;
                     int negativos = 0;
                     int ceros = 0;
                     
-                    for (int i = 1; i <= 15; i++)
+                    for (int i = 1; i <= 15; i++){
                     System.out.print("Ingrese el número " + i + ": ");
-                int num = sn.nextInt();
+                int numIngresado = sn.nextInt();
                 
-                if (num > 0) {
+                if (numIngresado > 0) {
                 positivos++;
-                } else if (num < 0) {
+                } else if (numIngresado < 0) {
                 negativos++; 
                   } else {
                 ceros++;
             }
-        
-            
-                    break;
+          }
+                  System.out.println("REPORTE DE CLASIFICACION");
+                  System.out.println("Cantidad de valores Positivos: " + positivos);
+                  System.out.println("Cantidad de valores Negativos: " + negativos);
+                  System.out.println("Cantidad de valores Ceros: " + ceros);
+                 
+                  break;
+                
                 case 11:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
                     break;
