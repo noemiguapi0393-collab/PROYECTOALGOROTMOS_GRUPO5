@@ -212,7 +212,11 @@ public class MenuPrincipal {
                    System.out.println("BIENVENIDOS a la Secuencia Fibonacci");
                    System.out.println("====================================");
                    System.out.print("Ingrese la cantidad de términos: ");
-                    int n = sn.nextInt();
+                    
+                   int n = sn.nextInt();
+                   
+                   int a = 0;
+                   int b = 1;
                     break;
                 case 13:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
