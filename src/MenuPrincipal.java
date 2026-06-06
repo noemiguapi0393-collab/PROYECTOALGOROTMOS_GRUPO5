@@ -143,7 +143,13 @@ public class MenuPrincipal {
                         System.out.println("Ingrese un numero: ");
                         numero5 = sn.nextInt();
                          }while(numero5 !=0);
+                        if(numero5 !=0){
+                            if(numero5 % 2 == 0){ 
+                                pares++;
+                            }}
+                        
                     break;
+                    
                 }
                 case 6 -> {
                 }
