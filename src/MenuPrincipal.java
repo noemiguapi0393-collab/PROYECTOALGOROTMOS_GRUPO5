@@ -162,6 +162,10 @@ public class MenuPrincipal {
                     double venta;
                     double total =0;
                     int cantidad =0;
+                    do { System.out.println("Ingrese una venta: ");
+                    venta= sn.nextDouble();
+                    }while(venta !=0);
+                    
                     break; 
                     
                 }
