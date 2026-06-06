@@ -191,6 +191,8 @@ public class MenuPrincipal {
                     int tabla;
                     System.out.println("Ingrese un numero: ");
                     tabla= sn.nextInt();
+                    if(tabla>0 ){
+                    }
                     break;
                     
                 }
