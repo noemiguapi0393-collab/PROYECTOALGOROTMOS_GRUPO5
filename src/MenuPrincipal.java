@@ -166,7 +166,12 @@ public class MenuPrincipal {
                     int ceros = 0;
                     
                     for (int i = 1; i <= 15; i++)
-                        
+                    System.out.print("Ingrese el número " + i + ": ");
+                int num = sn.nextInt();
+                
+                if (num > 0) {
+                positivos++;
+            
                     break;
                 case 11:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 11 [cite: 26]
