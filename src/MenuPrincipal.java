@@ -82,8 +82,11 @@ public class MenuPrincipal {
                     do {
                         System.out.print("Ingrese una nota entre 0 y 10: ");
                         nota = sn.nextDouble();
+                        if (nota < 0 || nota > 10) {
+                            System.out.println("[ERROR]: La nota esta fuera del rango permitido (0-10).");
+                        }
                     } while (nota < 0 || nota > 10);
-                    System.out.println("La nota valida es: " + nota);
+                    System.out.println("La nota valida registrada es: " + nota);
                     break;
 
                 case 4: // Ejercicio 4 [cite: 17, 18]
