@@ -6,7 +6,9 @@ public class MenuPrincipal {
         int opcion;
 
         do {
+            System.out.println("==========================");
             System.out.println("\n--- MENU DE OPCIONES ---");
+            System.out.println("==========================");
             System.out.println("1. Intentos de Contrasena (Ej 1)");
             System.out.println("2. Numeros Positivos (Suma y Promedio) (Ej 2)");
             System.out.println("3. Validar Nota 0-10 (Ej 3)");
