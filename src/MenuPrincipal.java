@@ -26,17 +26,18 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1:// Ejercicio 1 [cite: 11, 12]
+                case 1:// Ejercicio 1 
+                    String llaveMaestra = "utc2026"; // Almacenamiento seguro
                     int intentos = 0;
                     String clave;
                     do {
                         System.out.print("Ingrese el codigo de seguridad requerido: ");
                         clave = sn.next();
                         intentos++;
-                        if (!clave.equalsIgnoreCase("utc2026")) {
+                        if (!clave.equalsIgnoreCase(llaveMaestra)) {
                             System.out.println("[ALERTA] Credenciales incorrectas. Pruebe otra vez.");
                         }
-                    } while (!clave.equalsIgnoreCase("utc2026")); 
+                    } while (!clave.equalsIgnoreCase(llaveMaestra)); 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
                     break;
                 case 2: // Ejercicio 2 [cite: 13, 14]
