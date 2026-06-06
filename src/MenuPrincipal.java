@@ -191,11 +191,9 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     System.out.print("Ingrese la cantidad de términos: ");
                 
-                    int n = sn.nextInt();
+                    double suma = 0;
                     
-                    int a = 0;
-                    int b = 1;
-                  
+                    for (int i = 1; i <= 20; i++) {
                     
                     break;
                 case 12:
