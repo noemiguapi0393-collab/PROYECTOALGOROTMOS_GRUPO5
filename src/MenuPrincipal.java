@@ -77,7 +77,7 @@ public class MenuPrincipal {
                     System.out.println("========================================");
                     break;
                     
-                case 3:  // Ejercicio 3
+                case 3:// Ejercicio 3
                     System.out.println("\n**************");
                     System.out.println("* VALIDADOR DE CALIFICACIONES    *");
                     System.out.println("************");
@@ -89,8 +89,9 @@ public class MenuPrincipal {
                             System.out.println(">> Error: Entrada invalida.");
                         }
                     } while (nota < 0 || nota > 10);
-                    System.out.println("\n[SISTEMA]: Registro exitoso.");
-                    System.out.println("Nota almacenada: " + nota);
+                    System.out.println("------------------------------------");
+                    System.out.println(" RESULTADO: Nota " + nota + " aceptada.");
+                    System.out.println("------------------------------------");
                     break;
 
                 case 4: // Ejercicio 4 [cite: 17, 18]
