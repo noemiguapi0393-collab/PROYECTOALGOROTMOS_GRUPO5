@@ -47,18 +47,26 @@ public class MenuPrincipal {
                     System.out.println("  Intentos registrados en consola: " + intentos);
                     System.out.println("========================================");
                     break;
-                case 2: // Ejercicio 2 [cite: 13, 14]
+                case 2: // Ejercicio 2
                     int num, cant = 0, suma = 0;
                     while (true) {
-                        System.out.print("Ingrese un entero positivo: ");
+                        System.out.print("Ingrese un numero entero positivo: ");
                         num = sn.nextInt();
-                        if (num < 0) break;
+                        if (num < 0) {
+                            break; // Finaliza el bucle al ingresar un negativo
+                        }
                         cant++;
                         suma += num;
                     }
+                    System.out.println("\n--- RESULTADOS ---");
+                    System.out.println("Cantidad de numeros: " + cant);
+                    System.out.println("Suma total: " + suma);
                     if (cant > 0) {
-                        System.out.println("Cantidad: " + cant + " | Suma: " + suma + " | Promedio: " + ((double)suma/cant));
-                    } else System.out.println("No se ingresaron numeros validos.");
+                        double promedio = (double) suma / cant;
+                        System.out.println("Promedio de valores: " + promedio);
+                    } else {
+                        System.out.println("Promedio: No se puede calcular (0 elementos registrados).");
+                    }
                     break;
 
                 case 3: // Ejercicio 3 [cite: 15, 16]
