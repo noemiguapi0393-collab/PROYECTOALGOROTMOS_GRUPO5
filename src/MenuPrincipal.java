@@ -193,6 +193,7 @@ public class MenuPrincipal {
                     tabla= sn.nextInt();
                     if(tabla>0 ){
                         for(int i=1;i<=20; i++){
+                            resultado = tabla*i;
                         }
                         
                         
