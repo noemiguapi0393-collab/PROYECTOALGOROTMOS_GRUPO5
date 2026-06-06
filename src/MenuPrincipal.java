@@ -26,17 +26,17 @@ public class MenuPrincipal {
             opcion = sn.nextInt();
 
             switch (opcion) {
-                case 1: // Ejercicio 1
-                    System.out.println("========================================");
-                    System.out.println("    MODULO DE AUTENTICACION DE USUARIO  ");
-                    System.out.println("========================================");
+                case 1:// Ejercicio 1 
                     int intentos = 0;
                     String clave;
                     do {
-                        System.out.print("Ingrese la contrasena: ");
-                        clave = sn.next().toLowerCase(); // Acepta UTC2026 o utc2026
+                        System.out.print("Ingrese el codigo de seguridad requerido: ");
+                        clave = sn.next();
                         intentos++;
-                    } while (!clave.equals("utc2026")); 
+                        if (!clave.equalsIgnoreCase("utc2026")) {
+                            System.out.println("[ALERTA] Credenciales incorrectas. Pruebe otra vez.");
+                        }
+                    } while (!clave.equalsIgnoreCase("utc2026")); 
                     System.out.println("Acceso concedido. Intentos: " + intentos);
                     break;
                 case 2: // Ejercicio 2 [cite: 13, 14]
