@@ -100,10 +100,17 @@ public class MenuPrincipal {
                     int iCajero = 0;
                     boolean acceso = false;
                     while (iCajero < 3 && !acceso) {
-                        // CAMBIO 3: Mostrar intentos restantes
                         System.out.println("Intentos restantes: " + (3 - iCajero));
                         System.out.print("Clave de cajero: ");
                         String c = sn.next();
+
+                        // CAMBIO 4: Bucle para validar que sean 4 dígitos
+                        while (c.length() != 4) {
+                            System.out.println("Error: La clave debe tener 4 dígitos.");
+                            System.out.print("Clave de cajero: ");
+                            c = sn.next();
+                        }
+
                         if (c.equals("1234")) {
                             acceso = true;
                         } else { 
