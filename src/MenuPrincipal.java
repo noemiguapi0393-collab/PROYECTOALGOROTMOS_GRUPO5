@@ -312,7 +312,7 @@ public class MenuPrincipal {
                     
                     for (int i = 2; i <= 10; i++) {
                         System.out.println("Ingrese el numero : "+ i +" : ");
-                        
+                        numePrimero = sn.nextInt();
                     }
                 }
                 case 14 -> {
