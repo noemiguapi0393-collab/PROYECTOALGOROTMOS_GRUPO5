@@ -304,6 +304,11 @@ public class MenuPrincipal {
                     System.out.println("DETERMINAR EL NUMERO MAYOR Y MENOR" );
                     System.out.println("===================================");
                     
+                    System.out.println("Ingrese el primer numero: ");
+                    
+                    int numePrimero = sn.nextInt();
+                    
+                    
                 }
                 case 14 -> {
                 }
