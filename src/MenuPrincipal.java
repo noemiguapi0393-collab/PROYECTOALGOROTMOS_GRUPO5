@@ -313,6 +313,10 @@ public class MenuPrincipal {
                     for (int i = 2; i <= 10; i++) {
                         System.out.println("Ingrese el numero : "+ i +" : ");
                         numePrimero = sn.nextInt();
+                        if (numePrimero > mayor ){
+                            mayor = numePrimero;
+                        }
+                        
                     }
                 }
                 case 14 -> {
