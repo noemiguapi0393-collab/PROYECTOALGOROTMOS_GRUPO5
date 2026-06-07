@@ -316,6 +316,9 @@ public class MenuPrincipal {
                         if (numePrimero > mayor ){
                             mayor = numePrimero;
                         }
+                        if (numePrimero < menor ){
+                            menor = numePrimero;
+                        }
                         
                     }
                 }
