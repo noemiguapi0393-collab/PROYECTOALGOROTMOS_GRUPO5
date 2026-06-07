@@ -307,7 +307,8 @@ public class MenuPrincipal {
                     System.out.println("Ingrese el primer numero: ");
                     
                     int numePrimero = sn.nextInt();
-                    
+                    int mayor = numePrimero; 
+                    int menor = numePrimero ;
                     
                 }
                 case 14 -> {
