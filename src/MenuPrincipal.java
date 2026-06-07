@@ -310,6 +310,9 @@ public class MenuPrincipal {
                     int mayor = numePrimero; 
                     int menor = numePrimero ;
                     
+                    for (int i = 2; i <= 10; i++) {
+                        
+                    }
                 }
                 case 14 -> {
                 }
