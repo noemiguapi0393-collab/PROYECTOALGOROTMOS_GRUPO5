@@ -300,6 +300,10 @@ public class MenuPrincipal {
                     //ejercicio terminado
                 }
                 case 13 -> {
+                    System.out.println("===================================");
+                    System.out.println("DETERMINAR EL NUMERO MAYOR Y MENOR" );
+                    System.out.println("===================================");
+                    
                 }
                 case 14 -> {
                 }
