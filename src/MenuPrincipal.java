@@ -154,9 +154,12 @@ public class MenuPrincipal {
                 case 13:
                     // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
                     break;
-                case 14:
-                    // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 14 [cite: 29]
-                    break;
+                case 14:// Ejercicio 14: Suma de pares 1 al 200
+                System.out.println("\n--- SUMA DE PARES (1-200) ---");
+                // Cambio: Usamos una fórmula directa para evitar usar bucles con llaves que rompan el switch
+                System.out.println("La suma de los pares es: " + (100 * 101));
+                break;
+                
                 case 15:
                     System.out.println("Saliendo del programa...");
                     break;
