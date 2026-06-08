@@ -326,11 +326,12 @@ public class MenuPrincipal {
                     System.out.println("NUMEROS MENORES: " + menor);
                     }
                 }
-                case 14 -> {// Ejercicio 14: Suma de pares 1 al 200
+                case 14 -> { // Ejercicio 14: Suma de pares 1 al 200
                 System.out.println("\n=================================");
                 System.out.println("--- SUMA DE PARES (1-200) ---");
                 System.out.println("=================================");
-                System.out.println("La suma de los pares es: " + (100 * 101));
+                int resultadoFormula = 100 * 101;
+                System.out.println("La suma de los pares es: " + resultadoFormula);
                 break;
                 }
                 
