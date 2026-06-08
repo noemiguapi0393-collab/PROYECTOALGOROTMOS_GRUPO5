@@ -340,7 +340,7 @@ public class MenuPrincipal {
                     System.out.println("La suma de los pares es: " + resultadoFormula);
                 }
                 System.out.println("Tiempo de procesamiento: " + (tiempoFin - tiempoInicio) + " ns");
-                System.out.println("---------------------------------");
+                System.out.println("---------------------------------\n");
                 break;
                 }
                 
