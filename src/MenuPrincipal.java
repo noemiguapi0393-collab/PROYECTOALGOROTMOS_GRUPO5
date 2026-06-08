@@ -331,16 +331,19 @@ public class MenuPrincipal {
                 System.out.println("--- SUMA DE PARES (1-200) ---");
                 System.out.println("=================================");
                 System.out.println("Optimizando proceso mediante la Formula de Gauss...");
+                
                 long tiempoInicio = System.nanoTime();
                 int resultadoFormula = 100 * 101;
                 long tiempoFin = System.nanoTime();
+                
                 if (resultadoFormula > Integer.MAX_VALUE || resultadoFormula < 0) {
-                    System.out.println("ERROR: Desbordamiento detectado.");
+                    System.out.println("STATUS ERROR: Desbordamiento de memoria detectado.");
                 } else {
                     System.out.println("La suma de los pares es: " + resultadoFormula);
                 }
+                
                 System.out.println("Tiempo de procesamiento: " + (tiempoFin - tiempoInicio) + " ns");
-                System.out.println("---------------------------------\n");
+                System.out.println("=================================\n");
                 break;
                 }
                 
