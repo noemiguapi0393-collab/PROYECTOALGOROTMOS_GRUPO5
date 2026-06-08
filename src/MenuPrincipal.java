@@ -326,14 +326,18 @@ public class MenuPrincipal {
                     System.out.println("NUMEROS MENORES: " + menor);
                     }
                 }
-                case 14 -> { // Ejercicio 14: Suma de pares 1 al 200
+                case 14 -> {// Ejercicio 14: Suma de pares 1 al 200
                 System.out.println("\n=================================");
                 System.out.println("--- SUMA DE PARES (1-200) ---");
                 System.out.println("=================================");
                 long tiempoInicio = System.nanoTime();
                 int resultadoFormula = 100 * 101;
                 long tiempoFin = System.nanoTime();
-                System.out.println("La suma de los pares es: " + resultadoFormula);
+                if (resultadoFormula > Integer.MAX_VALUE || resultadoFormula < 0) {
+                    System.out.println("ERROR: Desbordamiento detectado.");
+                } else {
+                    System.out.println("La suma de los pares es: " + resultadoFormula);
+                }
                 System.out.println("Tiempo de procesamiento: " + (tiempoFin - tiempoInicio) + " ns");
                 break;
                 }
