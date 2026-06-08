@@ -319,13 +319,14 @@ public class MenuPrincipal {
                         if (numePrimero < menor ){
                             menor = numePrimero;
                         }
+                    }
                     System.out.println("==========");
                     System.out.println("RESULTADOS");
                     System.out.println("===========");
                     System.out.println("NUMEROS MAYORES: "+ mayor );
                     System.out.println("NUMEROS MENORES: " + menor);
-                    }
-                }
+                   
+               }
                 case 14 -> {// Ejercicio 14: Suma de pares 1 al 200
                 System.out.println("\n=================================");
                 System.out.println("--- SUMA DE PARES (1-200) ---");
@@ -344,18 +345,28 @@ public class MenuPrincipal {
                 
                 System.out.println("Tiempo de procesamiento: " + (tiempoFin - tiempoInicio) + " ns");
                 System.out.println("=================================\n");
-                break;
                 }
                 
-                case 15 -> System.out.println("Saliendo del programa...");
-                default -> System.out.println("Opcion no valida.");
-            }
+                case 15 -> {
+                System.out.println("==================================");
+                System.out.println("Determinar si es un numero primo"  ); 
+                System.out.println("==================================");
+
+                System.out.println("Ingrese un numero positivo entero: ");
+                //declaracion variables
+                int numerPrimo = sn.nextInt();
+                int contadorDivisores = 0 ;
+                
+                if (numerPrimo <=1){
+                    System.out.println("El numero " + numerPrimo "no es numero primo ");
+                }
+                
+                }
             
-            // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 13 [cite: 28]
-            // COMPANERO 4: Aqui borras esto y pones tu Ejercicio 14 [cite: 29]
-                    } while (opcion != 15);
-    }
-}
+          
+               
+    
+
 
 
 
