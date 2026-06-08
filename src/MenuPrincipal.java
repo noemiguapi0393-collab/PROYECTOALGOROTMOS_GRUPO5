@@ -117,14 +117,13 @@ public class MenuPrincipal {
                             System.out.println("La clave introducida es incorrecta.\n"); 
                         }
                     }
-                    
-                    // CAMBIO 6: Separador visual
                     System.out.println("---------------------------------");
 
+                    // CAMBIO 7: Mensajes finales optimizados
                     if (acceso) {
-                        System.out.println("Bienvenido!");
+                        System.out.println("¡Acceso concedido! Bienvenido a su cuenta.");
                     } else {
-                        System.out.println("Acceso bloqueado.");
+                        System.out.println("Tarjeta retenida. Inténtelo más tarde o acuda a una sucursal.");
                     }
                     break;
 
