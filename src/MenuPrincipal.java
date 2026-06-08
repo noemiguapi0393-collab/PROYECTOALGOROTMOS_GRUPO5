@@ -359,7 +359,7 @@ public class MenuPrincipal {
                 int contadorDivisores = 0 ;
                 
                 if (numerPrimo <=1){
-                System.out.println("El numero " + numerPrimo "no es numero primo ");
+                System.out.println("El numero " + numerPrimo + " no es numero primo ");
                 
                 }else{
                     //ciclo para 
@@ -383,8 +383,9 @@ public class MenuPrincipal {
                 default -> {
                     System.out.println("opcion no valida en el menu ");
                 }
+              }
                 
-                }while (opcion != 16);//el ciclo se repite mientras no elijan la opcion 16
+            }while (opcion != 16);//el ciclo se repite mientras no elijan la opcion 16
                 sn.close();
                 }
               }  
