@@ -358,7 +358,17 @@ public class MenuPrincipal {
                 int contadorDivisores = 0 ;
                 
                 if (numerPrimo <=1){
-                    System.out.println("El numero " + numerPrimo "no es numero primo ");
+                System.out.println("El numero " + numerPrimo "no es numero primo ");
+                
+                }else{
+                    //ciclo para 
+                    for (int i = 1; i <= numerPrimo; i++) {
+                        if (numerPrimo % i == 0){
+                            contadorDivisores++;
+                        }
+                    }
+                if (contadorDivisores ==2)
+                
                 }
                 
                 }
