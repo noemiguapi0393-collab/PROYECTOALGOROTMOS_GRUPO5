@@ -21,7 +21,7 @@ public class MenuPrincipal {
             System.out.println("10. Contador Positivos/Negativos/Ceros ");
             System.out.println("11. Promedio de Calificaciones ");
             System.out.println("12. Secuencia Fibonacci ");
-            System.out.println("13. Numero Mayor y Menor (Ej 13)");
+            System.out.println("13. Numero Mayor y Menor ");
             System.out.println("14. Suma Pares 1-200 (Ej 14)");
             System.out.println("15. Salir");
             System.out.print("Seleccione una opcion: ");
