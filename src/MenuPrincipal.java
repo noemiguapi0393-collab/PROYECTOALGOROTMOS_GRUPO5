@@ -326,7 +326,11 @@ public class MenuPrincipal {
                     System.out.println("NUMEROS MENORES: " + menor);
                     }
                 }
-                case 14 -> {
+                case 14 -> {// Ejercicio 14: Suma de pares 1 al 200
+                System.out.println("\n--- SUMA DE PARES (1-200) ---");
+                // Cambio: Usamos una fórmula directa para evitar usar bucles con llaves que rompan el switch
+                System.out.println("La suma de los pares es: " + (100 * 101));
+                break;
                 }
                 case 15 -> System.out.println("Saliendo del programa...");
                 default -> System.out.println("Opcion no valida.");
