@@ -377,6 +377,17 @@ public class MenuPrincipal {
               }
                 
             }
+                case 16 -> {//nueva opcion de salida
+                    System.out.println("saliendo del sistema de algoritmos ......");
+                }
+                default -> {
+                    System.out.println("opcion no valida en el menu ");
+                }
+                
+                }while (opcion != 16);//el ciclo se repite mientras no elijan la opcion 16
+                sn.close();
+                }
+              }  
             
           
                
