@@ -367,11 +367,15 @@ public class MenuPrincipal {
                             contadorDivisores++;
                         }
                     }
-                if (contadorDivisores ==2)
-                
+                if (contadorDivisores ==2){
+                    System.out.println("El numero " + numerPrimo + "si es un numero primo");
+                }else{
+                    System.out.println("El numero " + numerPrimo + "no es un numero primo ");
                 }
                 
-                }
+              }
+                
+            }
             
           
                
