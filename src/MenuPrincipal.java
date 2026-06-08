@@ -319,7 +319,11 @@ public class MenuPrincipal {
                         if (numePrimero < menor ){
                             menor = numePrimero;
                         }
-                        
+                    System.out.println("==========");
+                    System.out.println("RESULTADOS");
+                    System.out.println("===========");
+                    System.out.println("NUMEROS MAYORES: "+ mayor );
+                    System.out.println("NUMEROS MENORES: " + menor);
                     }
                 }
                 case 14 -> {
