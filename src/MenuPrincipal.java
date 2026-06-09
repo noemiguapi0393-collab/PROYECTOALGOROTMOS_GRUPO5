@@ -387,6 +387,7 @@ public class MenuPrincipal {
                 
             }while (opcion != 16);//el ciclo se repite mientras no elijan la opcion 16
                 sn.close();
+                System.out.println("GRUPO 6 CLONACION");
                 }
               }  
             
